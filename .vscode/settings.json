@@ -1,0 +1,19 @@
+{
+  // Disable inline ghost text and quick suggestions
+  "editor.inlineSuggest.enabled": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  // Prevent suggestions from auto-triggering on characters like dot "."
+  "editor.suggestOnTriggerCharacters": false,
+  // Require explicit Accept (Enter won't accept suggestions)
+  "editor.acceptSuggestionOnEnter": "off",
+  // Disable parameter hints (method signature popups)
+  "editor.parameterHints.enabled": false,
+
+  // If you use GitHub Copilot, these settings stop its inline suggestions in this workspace
+  "github.copilot.inlineSuggest.enable": false,
+  "github.copilot.enable": false
+}
